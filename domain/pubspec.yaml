@@ -11,8 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  data:
-    path: ../data
 
 dev_dependencies:
   flutter_test:

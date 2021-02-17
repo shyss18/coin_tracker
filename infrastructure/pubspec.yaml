@@ -1,4 +1,4 @@
-name: data
+name: infrastructure
 description: All the input data stuff (from async sources).
 version: 0.0.1
 author:
@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  domain:
+    path: ../domain
 
 dev_dependencies:
   flutter_test:
