@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:core/ioc/ioc.dart';
 
 void main() {
+  ContainerBootstrapper.configureInjection();
   runApp(MyApp());
 }
 

@@ -18,6 +18,8 @@ dev_dependencies:
     sdk: flutter
   domain:
     path: ./domain
+  core:
+    path: ./core
 
 flutter:
   uses-material-design: true
