@@ -8,15 +8,17 @@ class Transaction extends Equatable {
       this.transactionKind,
       this.moneySpent,
       this.place,
-      this.currency});
+      this.currency,
+      this.transactionTime});
 
   final Category category;
   final String transactionKind;
   final String place;
   final String moneySpent;
   final Currency currency;
+  final DateTime transactionTime;
 
   @override
   List<Object> get props =>
-      [category, transactionKind, place, moneySpent, currency];
+      [category, transactionKind, place, moneySpent, currency, transactionTime];
 }
