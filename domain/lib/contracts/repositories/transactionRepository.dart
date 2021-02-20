@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 
-import '../errors/failures.dart';
-import '../entities/transaction.dart';
+import '../../errors/failures.dart';
+import '../../entities/transaction.dart';
 
 abstract class TransactionRepository {
   Future<Either<Failure, IList<Transaction>>> getAllTransactions();

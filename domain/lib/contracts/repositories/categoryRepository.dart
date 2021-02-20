@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 
-import '../errors/failures.dart';
-import '../entities/category.dart';
+import '../../errors/failures.dart';
+import '../../entities/category.dart';
 
 abstract class CategoryRepository {
   Future<Either<Failure, Category>> getCategoryByTitle(String categoryTitle);
