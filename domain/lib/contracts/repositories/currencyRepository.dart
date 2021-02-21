@@ -9,4 +9,6 @@ abstract class CurrencyRepository {
 
   Future<Either<Failure, Currency>> createCurrency(Currency newCurrency);
   Future<Either<Failure, Currency>> changeCurrency(Currency currentCurrency);
+
+  Future<Either<Failure, bool>> removeCurrency(Currency currentCurrency);
 }

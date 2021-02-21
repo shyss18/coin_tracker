@@ -9,4 +9,6 @@ abstract class CategoryRepository {
 
   Future<Either<Failure, Category>> createCategory(Category newCategory);
   Future<Either<Failure, Category>> changeCategory(Category currentCategory);
+
+  Future<Either<Failure, bool>> removeCategory(Category currentCategory);
 }
